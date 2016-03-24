@@ -1,0 +1,354 @@
+.personalStyle {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+.hero-container {
+  background: url(../img/Mountian.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  .hero-container h1 {
+    font-size: 3em;
+    letter-spacing: 8.57px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .hero-container p {
+    font-size: 1.5em;
+    letter-spacing: 1.62px;
+    color: white;
+    opacity: .5;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300; }
+  .hero-container button {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    letter-spacing: 0.91px;
+    border: 2px solid #58C9B9;
+    border-radius: 8px;
+    background: none;
+    width: 200px;
+    height: 53px;
+    margin-bottom: 50px; }
+  .hero-container .style-button {
+    text-align: center;
+    margin-top: 30px; }
+  .hero-container #hamburger-menu {
+    float: right;
+    margin-top: 60px;
+    margin-right: 40px; }
+  .hero-container .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .hero-container #down-arrow {
+    margin: 0 auto;
+    display: block; }
+
+.about-container {
+  margin-top: 80px; }
+  .about-container h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #22303E;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 0; }
+  .about-container hr {
+    background-color: #22303E;
+    height: 2px;
+    width: 7%;
+    margin-top: 20px; }
+  .about-container p {
+    color: #52616A;
+    line-height: 2.5em;
+    font-size: 1.65em;
+    letter-spacing: 2.57px;
+    max-width: 60%;
+    text-align: center;
+    margin: 80px auto;
+    font-weight: 300; }
+
+.services-container {
+  max-width: 90%;
+  margin: 150px auto; }
+  .services-container .service-wrapper {
+    margin-bottom: 150px; }
+  .services-container h1 {
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color: #22303E;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 0; }
+  .services-container hr {
+    background-color: #22303E;
+    height: 2px;
+    width: 7%;
+    margin-top: 20px;
+    margin-bottom: 80px; }
+  .services-container h3 {
+    font-size: 1.7em;
+    color: #22303E;
+    letter-spacing: 2.57px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase; }
+  .services-container p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #52616A;
+    text-align: center;
+    letter-spacing: 2.14px;
+    max-width: 60%;
+    margin: 0 auto; }
+  .services-container img {
+    display: block;
+    margin: 0 auto; }
+
+.project-container {
+  margin-top: 220px; }
+  .project-container h1 {
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color: #22303E;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 0; }
+  .project-container hr {
+    background-color: #22303E;
+    height: 2px;
+    width: 7%;
+    margin-top: 20px;
+    margin-bottom: 0; }
+  .project-container h3 {
+    color: #22303E;
+    font-size: 2.3em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center; }
+  .project-container p {
+    color: #52616A;
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 1.71px;
+    max-width: 60%;
+    text-align: center;
+    margin: 0.7em auto; }
+  .project-container button {
+    font-size: 1.5em;
+    color: #58C9B9;
+    letter-spacing: 0.91px;
+    border: 2px solid #58C9B9;
+    border-radius: 8px;
+    background: none;
+    width: 200px;
+    height: 53px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto; }
+  .project-container img {
+    display: block;
+    margin: 0 auto; }
+  .project-container #paycrave-header {
+    padding-top: 200px; }
+  .project-container #af-header {
+    padding-top: 75px; }
+  .project-container #netflix-header {
+    padding-top: 55px; }
+
+.contact-container {
+  margin-top: 220px; }
+  .contact-container h1 {
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color: #22303E;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 0; }
+  .contact-container hr {
+    background-color: #22303E;
+    height: 2px;
+    width: 7%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .contact-container p {
+    color: #52616A;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-align: center; }
+  .contact-container #avatar {
+    display: block;
+    margin: 0 auto;
+    display: absolute;
+    margin-top: -110px; }
+  .contact-container .form-style {
+    /* Form Background: */
+    background: #58C9B9;
+    border-radius: 16px;
+    max-width: 50%;
+    display: block;
+    margin: 200px auto; }
+  .contact-container #form-name,
+  .contact-container #form-message,
+  .contact-container #form-email {
+    display: block;
+    margin: 100px auto;
+    border: 0;
+    border-bottom: 2px solid white;
+    width: 65%;
+    font-size: 22px;
+    outline: none;
+    background: none;
+    color: white; }
+  .contact-container ::-webkit-input-placeholder {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em; }
+  .contact-container :-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+    text-transform: uppercase; }
+  .contact-container ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+    text-transform: uppercase; }
+  .contact-container :-ms-input-placeholder {
+    color: white;
+    text-transform: uppercase; }
+  .contact-container .form-text {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #ffffff; }
+  .contact-container button {
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.91px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    width: 200px;
+    height: 53px;
+    display: block;
+    margin: 0 auto;
+    background: none; }
+  .contact-container .social-icons {
+    margin: 0 auto;
+    display: block; }
+  .contact-container .social-container {
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0; }
+
+footer {
+  margin-top: 190px;
+  background-color: #58C9B9;
+  padding-top: 36px;
+  padding-bottom: 36px; }
+
+.text-location {
+  font-size: 22px;
+  color: white;
+  font-weight: 300; }
+
+.img-location {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.copyright-info {
+  color: white;
+  font-size: 22px;
+  padding-right: 70px;
+  text-align: right;
+  font-weight: 300; }
+
+@media (max-width: 425px) {
+  .hero-container p {
+    max-width: 100%; }
+  .hero-container h1 {
+    font-size: 26px; }
+
+  .about-container p {
+    line-height: 45px;
+    max-width: 90%; }
+
+  .services-container p {
+    margin-bottom: 50px; }
+
+  .project-container {
+    margin-top: 80px; }
+    .project-container #paycrave-header,
+    .project-container #af-header,
+    .project-container #netflix-header {
+      padding: 0; }
+
+  .contact-container .form-style {
+    max-width: 100%; }
+  .contact-container .social-icons {
+    margin-bottom: 30px; }
+
+  footer .text-location {
+    font-size: 13px;
+    text-align: center; }
+  footer .copyright-info {
+    font-size: 13px;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px; }
+  footer .img-location {
+    height: 20px;
+    width: 20px; } }
+@media (max-width: 768px) {
+  .services-container p {
+    margin-bottom: 60px; }
+
+  .contact-container .form-style {
+    max-width: 90%; }
+  .contact-container .social-icons {
+    margin-bottom: 30px; }
+
+  footer .text-location {
+    font-size: 13px;
+    text-align: center; }
+  footer .copyright-info {
+    font-size: 13px;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px; }
+  footer .img-location {
+    height: 20px;
+    width: 20px; } }
+@media (max-width: 1024px) {
+  .services-container p {
+    margin-bottom: 70px; }
+
+  .contact-container .form-style {
+    max-width: 90%; }
+  .contact-container .social-icons {
+    margin-bottom: 30px; }
+
+  footer .text-location {
+    font-size: 18px;
+    text-align: center; }
+  footer .copyright-info {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px; }
+  footer .img-location {
+    height: 20px;
+    width: 20px; } }
