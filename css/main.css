@@ -43,10 +43,6 @@ body {
   .hero-container .style-button {
     text-align: center;
     margin-top: 30px; }
-  .hero-container #hamburger-menu {
-    float: right;
-    margin-top: 60px;
-    margin-right: 40px; }
   .hero-container .hero-text {
     position: absolute;
     top: 50%;
@@ -283,35 +279,33 @@ footer {
     font-size: 26px; }
 
   .about-container p {
-    line-height: 45px;
-    max-width: 90%; }
+    line-height: 35px;
+    max-width: 95%;
+    font-size: 18px; }
 
-  .services-container p {
-    margin-bottom: 50px; }
+  .services-container {
+    margin-top: 30px; }
+    .services-container p {
+      margin-bottom: 50px; }
 
   .project-container {
     margin-top: 80px; }
+    .project-container .paycrave-style {
+      max-width: 75%; }
     .project-container #paycrave-header,
     .project-container #af-header,
     .project-container #netflix-header {
       padding: 0; }
 
+  footer p {
+    font-size: 13px; }
+
+  .contact-container p {
+    font-size: 18px; }
   .contact-container .form-style {
     max-width: 100%; }
   .contact-container .social-icons {
-    margin-bottom: 30px; }
-
-  footer .text-location {
-    font-size: 13px;
-    text-align: center; }
-  footer .copyright-info {
-    font-size: 13px;
-    text-align: center;
-    padding: 0;
-    margin-top: 10px; }
-  footer .img-location {
-    height: 20px;
-    width: 20px; } }
+    margin-bottom: 30px; } }
 @media (max-width: 768px) {
   .services-container p {
     margin-bottom: 60px; }
