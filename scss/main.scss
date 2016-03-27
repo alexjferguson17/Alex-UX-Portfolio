@@ -407,6 +407,10 @@ footer {
 		 p {
 			font-size: 13px;
 		}
+
+		.text-location {
+			padding-left: 0;
+		}
 	}
 
 	.contact-container {
@@ -445,7 +449,9 @@ footer {
 		footer {
 	  .text-location {
     font-size: 13px;
-    text-align: center; }
+    text-align: center; 
+    padding-left: 0;
+  }
 
   .copyright-info {
     font-size: 13px;
@@ -479,7 +485,9 @@ footer {
 			footer {
 	  .text-location {
     font-size: 18px;
-    text-align: center; }
+    text-align: center; 
+    padding-left: 0;
+  }
 
   .copyright-info {
     font-size: 16px;

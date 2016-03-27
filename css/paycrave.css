@@ -1,3 +1,6 @@
+.container-fluid {
+  padding-right: 0; }
+
 .hero-container {
   background: #D52941;
   height: 100vh; }
@@ -180,9 +183,11 @@ footer {
   padding-bottom: 36px; }
 
 .text-location {
-  font-size: 22px;
+  font-size: 18px;
   color: white;
-  font-weight: 300; }
+  font-weight: 300;
+  padding-left: 60px;
+  padding-top: 10px; }
 
 .img-location {
   margin-left: 10px;
@@ -190,10 +195,11 @@ footer {
 
 .copyright-info {
   color: white;
-  font-size: 22px;
-  padding-right: 70px;
+  font-size: 16px;
+  padding-right: 60px;
   text-align: right;
-  font-weight: 300; }
+  font-weight: 300;
+  padding-top: 10px; }
 
 @media (max-width: 425px) {
   .about-container p,
@@ -206,7 +212,8 @@ footer {
 
   footer .text-location {
     font-size: 13px;
-    text-align: center; }
+    text-align: center;
+    padding-left: 0; }
   footer .copyright-info {
     font-size: 13px;
     text-align: center;
@@ -218,7 +225,8 @@ footer {
 @media (max-width: 768px) {
   footer .text-location {
     font-size: 13px;
-    text-align: center; }
+    text-align: center;
+    padding-left: 0; }
   footer .copyright-info {
     font-size: 13px;
     text-align: center;
@@ -230,7 +238,8 @@ footer {
 @media (max-width: 1024px) {
   footer .text-location {
     font-size: 18px;
-    text-align: center; }
+    text-align: center;
+    padding-left: 0; }
   footer .copyright-info {
     font-size: 16px;
     text-align: center;
