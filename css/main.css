@@ -6,7 +6,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 .hero-container {
-  background: url(../img/Mountian.png) no-repeat center center;
+  background: url(../img/assets/Mountian-2x.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -163,6 +163,8 @@ body {
     padding-top: 75px; }
   .project-container #netflix-header {
     padding-top: 55px; }
+  .project-container .paycrave-size {
+    width: 351px; }
 
 .contact-container {
   margin-top: 220px; }

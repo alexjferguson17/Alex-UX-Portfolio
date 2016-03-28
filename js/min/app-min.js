@@ -1,1 +1,1 @@
-$(document).ready(function(){(new WOW).init(),$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".viewWork").offset().top},"slow")})});
+$(document).ready(function(){"undefined"!=typeof WOW&&(new WOW).init(),$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".viewWork").offset().top},"slow")}),$(".scrollSection").click(function(){$("html,body").animate({scrollTop:$(".secondSection").offset().top},"slow")})});

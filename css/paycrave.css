@@ -1,6 +1,3 @@
-.container-fluid {
-  padding-right: 0; }
-
 .hero-container {
   background: #D52941;
   height: 100vh; }
@@ -175,6 +172,8 @@
 .screens-container img {
   display: block;
   margin: 0 auto; }
+.screens-container .mockSize {
+  width: 306px; }
 
 footer {
   margin-top: 190px;

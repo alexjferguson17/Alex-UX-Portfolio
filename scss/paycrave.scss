@@ -1,9 +1,6 @@
 $DarkBlue: #22303E;
 $Grey: #52616A;
 
-.container-fluid {
-	padding-right: 0;
-}
 
 .hero-container {
 	background: #D52941;
@@ -233,6 +230,10 @@ $Grey: #52616A;
 	img {
 		display: block;
 		margin: 0 auto;
+	}
+
+	.mockSize {
+		width: 306px;
 	}
 }
 
