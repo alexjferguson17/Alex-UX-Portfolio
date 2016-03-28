@@ -47,6 +47,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/afExotics\/af-exotics-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 700475,
+		"inputAbbreviatedPath": "\/img\/afExotics\/af-exotics-2x.png",
+		"outputAbbreviatedPath": "\/img\/afExotics\/af-exotics-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/afExotics\/af-exotics.png": {
 		"fileType": 32768,
 		"ignore": 0,
